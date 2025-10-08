@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Angy — Cyber Security Pentester</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #101010, #1e1e1e);
-      color: #f2f2f2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-    }
-
-    img {
-      border-radius: 50%;
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin: 0.5rem 0;
-    }
-
-    p {
-      font-size: 1.1rem;
-      color: #aaa;
-      max-width: 400px;
-      text-align: center;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angy — Pentester & Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <img src="./angy.png" alt="Photo of Angy">
-  <h1>Angy</h1>
-  <p>Cyber Security Pentester & CTF Player</p>
-  <footer>© 2025 Angy</footer>
+  <header id="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img src="your-photo.jpg" alt="Angy" class="hero-photo" />
+      <h1>Angy</h1>
+      <p>Cyber Security Pentester & CTF Player</p>
+      <a href="#about" class="btn"> About Me </a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        (Scurte detalii: cine ești, ce faci, ce te pasionează etc.)
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Penetration Testing</li>
+        <li>Web Security</li>
+        <li>Reverse Engineering</li>
+        <li>CTF Challenges</li>
+        <!-- adaugă ce vrei tu -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <!-- câteva carduri de proiecte -->
+        <div class="project">
+          <h3>Project Name</h3>
+          <p>Scurtă descriere.</p>
+        </div>
+        <!-- adaugă mai multe -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Angy. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
