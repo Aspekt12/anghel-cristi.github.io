@@ -1,2 +1,2 @@
 # anghel-cristi.github.io
-This will be my CV
+O sa fie fun!!!!!
